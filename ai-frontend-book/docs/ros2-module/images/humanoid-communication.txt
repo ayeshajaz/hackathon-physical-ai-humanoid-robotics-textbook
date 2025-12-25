@@ -1,0 +1,10 @@
+# Humanoid Robot Communication Diagram
+
+This file would contain a visual representation of how ROS 2 is used in a humanoid robot showing:
+- Sensors distributed throughout the robot body (cameras, IMU, joint encoders)
+- Processing units (head, torso, limbs)
+- Communication patterns between components
+- Example topics for sensor data and control commands
+- Safety monitoring systems
+
+[Diagram showing humanoid robot with ROS 2 nodes for different body parts and communication flows]

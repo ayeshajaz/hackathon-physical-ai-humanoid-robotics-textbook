@@ -1,0 +1,11 @@
+# Isaac Sim Environment Visualization
+
+This file would contain a visual representation of an Isaac Sim environment showing:
+
+- 3D simulation scene with humanoid robot
+- Various sensors (cameras, LiDAR, IMU)
+- Physics simulation elements
+- Rendering pipeline
+- Synthetic data generation process
+
+[Diagram showing Isaac Sim interface and environment components]

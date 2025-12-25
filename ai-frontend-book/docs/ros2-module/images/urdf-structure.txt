@@ -1,0 +1,11 @@
+# URDF Structure Diagram
+
+This file would contain a visual representation of URDF structure showing:
+- Links as rigid bodies
+- Joints connecting links
+- Kinematic chain from base to end effectors
+- Coordinate frames for each link
+- Visual and collision properties
+- Example of a simple robot arm or humanoid structure
+
+[Diagram showing links connected by joints with coordinate frames]

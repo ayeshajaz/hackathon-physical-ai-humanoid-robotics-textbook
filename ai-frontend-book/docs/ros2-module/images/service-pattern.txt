@@ -1,0 +1,10 @@
+# Service Pattern Diagram
+
+This file would contain a visual representation of the ROS 2 service pattern showing:
+- Service client sending request to service server
+- Service server processing request and sending response
+- Request-response message flow
+- Service name as the communication endpoint
+- Synchronous communication pattern
+
+[Diagram showing client-server interaction with request and response messages]

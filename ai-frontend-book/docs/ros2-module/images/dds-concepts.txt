@@ -1,0 +1,11 @@
+# DDS Concepts Diagram
+
+This file would contain a visual representation of DDS (Data Distribution Service) concepts showing:
+- DDS Domain as the communication space
+- DDS Participants representing nodes
+- DDS Topics as the data channels
+- Publishers and Subscribers within the DDS framework
+- Quality of Service (QoS) settings
+- Data writers and readers
+
+[Diagram showing DDS architecture with participants, topics, and QoS policies]

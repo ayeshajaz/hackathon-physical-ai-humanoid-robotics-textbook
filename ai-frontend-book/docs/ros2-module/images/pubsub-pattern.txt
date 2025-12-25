@@ -1,0 +1,10 @@
+# Publisher-Subscriber Pattern Diagram
+
+This file would contain a visual representation of the ROS 2 publisher-subscriber pattern showing:
+- Publisher node publishing messages to a topic
+- Multiple subscriber nodes receiving messages from the same topic
+- Message flow direction
+- Topic name as the communication bus
+- Time sequence of message publication and subscription
+
+[Detailed diagram showing publisher sending messages to topic, subscribers receiving from topic with time sequence]

@@ -1,0 +1,28 @@
+VLA Architecture Diagram Description
+
+Title: Vision-Language-Action (VLA) System Architecture
+
+Description: This diagram illustrates the architecture of a Vision-Language-Action system with three main interconnected components:
+
+1. Vision Component (Left side)
+   - Input: Cameras, sensors
+   - Processing: Computer vision, object detection, scene understanding
+   - Output: Environmental perception data
+
+2. Language Component (Center)
+   - Input: Natural language commands, environmental context
+   - Processing: Large Language Model (LLM), natural language understanding
+   - Output: Action plans, semantic understanding
+
+3. Action Component (Right side)
+   - Input: Action plans from LLM
+   - Processing: Motion planning, control execution
+   - Output: Robot actions, movements
+
+Arrows show data flow:
+- Vision → Language: Environmental context
+- Language → Action: Action plans
+- Action → Environment: Robot behavior
+- Environment → Vision: Continuous perception
+
+Feedback loops connect all components for adaptive behavior.

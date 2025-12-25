@@ -1,0 +1,12 @@
+# Isaac Architecture Diagram
+
+This file would contain a visual representation of the NVIDIA Isaac architecture showing:
+
+- Isaac Sim (simulation environment)
+- Isaac ROS (perception and manipulation packages)
+- Isaac Apps (reference applications)
+- Integration with Omniverse platform
+- Connection to ROS 2 ecosystem
+- Hardware acceleration (GPU computing)
+
+[Diagram showing Isaac ecosystem components and their relationships]

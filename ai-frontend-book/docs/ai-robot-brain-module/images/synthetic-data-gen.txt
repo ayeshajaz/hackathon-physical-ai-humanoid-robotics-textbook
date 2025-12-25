@@ -1,0 +1,11 @@
+# Synthetic Data Generation Flow Diagram
+
+This file would contain a visualization of the synthetic data generation pipeline showing:
+
+- 3D scene generation in Isaac Sim
+- Domain randomization process
+- Sensor simulation (cameras, LiDAR, IMU)
+- Data annotation and labeling
+- Dataset export for ML training
+
+[Flowchart showing synthetic data generation process from simulation to labeled dataset]

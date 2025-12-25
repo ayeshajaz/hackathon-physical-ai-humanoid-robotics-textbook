@@ -1,0 +1,10 @@
+# ROS 2 Architecture Diagram
+
+This file would contain a visual representation of the ROS 2 architecture showing:
+- Nodes communicating through topics
+- Publisher-subscriber pattern
+- Service client-server pattern
+- DDS middleware layer
+- Hardware interfaces
+
+[Diagram showing ROS 2 nodes, topics, services, and DDS middleware]

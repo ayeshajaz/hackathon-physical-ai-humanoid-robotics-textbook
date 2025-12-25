@@ -1,0 +1,67 @@
+.moduleSection {
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.sectionTitle {
+  margin-bottom: 3rem;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  color: var(--ifm-heading-color);
+}
+
+/* Minimal spacing between cards */
+.moduleSection .row {
+  margin: 0 -0.5rem;
+}
+
+.moduleSection .col {
+  padding: 0 0.5rem;
+  margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 996px) {
+  .moduleSection {
+    padding: 3rem 0;
+  }
+
+  .sectionTitle {
+    font-size: 1.75rem;
+    margin-bottom: 2rem;
+  }
+
+  .moduleSection .col {
+    flex: 0 0 calc(50% - 1rem);
+    max-width: calc(50% - 1rem);
+    margin-bottom: 1rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .moduleSection {
+    padding: 2rem 0;
+  }
+
+  .sectionTitle {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .moduleSection .col {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+/* Dark mode support */
+:global(html[data-theme='dark']) .moduleSection {
+  color: white;
+}
+
+:global(html[data-theme='dark']) .moduleSection h1,
+:global(html[data-theme='dark']) .moduleSection h2,
+:global(html[data-theme='dark']) .moduleSection h3,
+:global(html[data-theme='dark']) .moduleSection p {
+  color: white;
+}

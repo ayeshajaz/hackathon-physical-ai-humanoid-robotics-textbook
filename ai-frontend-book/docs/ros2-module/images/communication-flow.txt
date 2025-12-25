@@ -1,0 +1,10 @@
+# Communication Flow Diagram
+
+This file would contain a visual representation of ROS 2 communication flows showing:
+- Publisher node sending messages to a topic
+- Multiple subscriber nodes receiving from the same topic
+- Service client sending request to service server
+- Service server sending response back to client
+- Message routing through the DDS middleware
+
+[Diagram showing communication patterns: pub/sub and client/server]

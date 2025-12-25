@@ -1,0 +1,53 @@
+.infoCards {
+  padding: 4rem 0;
+  /* Clean, minimal spacing as specified */
+}
+
+/* Ensure horizontal alignment for three cards */
+/* Clean, minimal design with no boxed borders */
+.infoCards > .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Minimal spacing between cards */
+.infoCards .row {
+  margin: 0 -0.5rem; /* Minimal spacing */
+}
+
+.infoCards .col {
+  padding: 0 0.5rem; /* Minimal spacing */
+  margin-bottom: 1rem; /* Minimal vertical spacing */
+}
+
+@media screen and (max-width: 996px) {
+  .infoCards {
+    padding: 2rem 0;
+  }
+
+  /* Docusaurus grid system already handles responsive behavior:
+      - On tablet: col--4 becomes 50% width (2 per row)
+      - Keep consistent spacing */
+  .infoCards .col {
+    margin-bottom: 1rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* On mobile: Docusaurus grid makes cards full width */
+  .infoCards .col {
+    margin-bottom: 1rem;
+  }
+}
+
+/* 🌙 Dark mode fix for homepage info cards */
+:global(html[data-theme='dark']) .infoCards {
+  color: white;
+}
+
+:global(html[data-theme='dark']) .infoCards h1,
+:global(html[data-theme='dark']) .infoCards h2,
+:global(html[data-theme='dark']) .infoCards h3,
+:global(html[data-theme='dark']) .infoCards p {
+  color: white;
+}

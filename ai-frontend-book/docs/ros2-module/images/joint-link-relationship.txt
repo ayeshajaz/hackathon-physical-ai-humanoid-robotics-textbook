@@ -1,0 +1,10 @@
+# Joint and Link Relationship Diagram
+
+This file would contain a visual representation of how joints connect links in a robot structure showing:
+- Parent and child links in joint definitions
+- Different joint types (revolute, prismatic, fixed, etc.)
+- Joint axes and ranges of motion
+- Coordinate system transformations
+- Example kinematic chains
+
+[Diagram showing different joint types and how they connect links with their degrees of freedom]
